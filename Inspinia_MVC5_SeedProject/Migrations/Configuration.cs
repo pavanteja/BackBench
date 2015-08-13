@@ -5,15 +5,15 @@ namespace BackBench.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Inspinia_MVC5_SeedProject.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BackBench.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "Inspinia_MVC5_SeedProject.Models.ApplicationDbContext";
+            ContextKey = "BackBench.Models.ApplicationDbContext";
         }
 
-        protected override void Seed(Inspinia_MVC5_SeedProject.Models.ApplicationDbContext context)
+        protected override void Seed(BackBench.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

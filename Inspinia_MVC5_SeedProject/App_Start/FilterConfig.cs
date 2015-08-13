@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Inspinia_MVC5_SeedProject
+namespace BackBench
 {
     public class FilterConfig
     {

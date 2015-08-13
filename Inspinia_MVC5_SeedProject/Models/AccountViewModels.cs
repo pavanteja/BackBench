@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Inspinia_MVC5_SeedProject.Models
+namespace BackBench.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
